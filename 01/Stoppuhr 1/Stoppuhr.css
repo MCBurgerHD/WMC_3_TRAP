@@ -1,0 +1,12 @@
+#inhalt {
+    border: 1px solid black;
+    border-radius: 20px;
+    text-align: center;
+    width: 25%;
+    background-color: grey;
+}
+
+#Datum {
+    color: white;
+    font-size: large;
+}
