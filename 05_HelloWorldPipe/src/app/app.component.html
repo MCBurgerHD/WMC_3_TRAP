@@ -1,0 +1,11 @@
+<meta charset="UTF-8">
+<input placeholder="Name" [(ngModel)]="yname" (keydown.enter)="say()"/>
+<br>
+<select>
+<option [value]="hello" [defaultSelected]="hello">Hello</option>
+  <option [value]="hallo">Hallo</option>
+  <option [value]="gruessgott">Grüß Gott</option>
+  <option [value]="servus">Servus</option>
+</select>
+<br>
+<div [ngClass]="'class'">{{output}}</div>
