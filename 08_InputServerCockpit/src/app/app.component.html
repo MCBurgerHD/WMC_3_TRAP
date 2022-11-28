@@ -1,0 +1,11 @@
+<div *ngFor="let items of arr" id="list">
+  <app-server [name]="items.name" [type]="items.type"></app-server>
+</div>
+<input [(ngModel)]="name" type="text" placeholder="Server Name">
+<select [(ngModel)]="type" name="type">
+  <option [value]="exam" [defaultSelected]="exam">EXAM</option>
+  <option [value]="traning">Traning</option>
+</select>
+<button (click)="create()">create</button>
+
+
