@@ -1,0 +1,6 @@
+<app-cockpit [arr]="arr" [passing]="server" (newServer)="newServerCreated($event) "></app-cockpit>
+
+<div *ngFor="let i of arr">
+  <app-server [name]="i.name" [type]="i.type" [ip]="i.ip" [id]="i.id" [arr]="arr" [passing]="server" (removeObject)="removingObject($event)" (copyObject)="copy($event)"></app-server>
+</div>
+

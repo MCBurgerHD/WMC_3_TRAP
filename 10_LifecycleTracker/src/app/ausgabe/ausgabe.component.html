@@ -1,0 +1,7 @@
+<input [(ngModel)]="text" type="text"><br>
+<button (click)="setOutput()">Set output</button><br>
+<button (click)="destroyComponnt()">Destroy Component</button>
+
+<div *ngIf="destroy">
+{{ausgabe}}
+</div>
